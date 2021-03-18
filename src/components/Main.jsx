@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { testAction } from '../redux/test/test.actions';
 import Container from './Container/Container';
 
-export const Test = () => {
+export const Main = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -17,4 +17,5 @@ export const Test = () => {
   )
 }
 
-export default Test;
+export default Main;
+
