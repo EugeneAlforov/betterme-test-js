@@ -1,17 +1,23 @@
-import React, { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
-import { testAction } from '../redux/test/test.actions';
+import React, { useEffect, useState } from 'react';
+import { Timer } from './common/timer';
 
 export const Test = () => {
-  const dispatch = useDispatch();
+  const [time, setTime] = useState(599);
+
+  const decrementTime = () => {
+    setTime(prevTime => prevTime - 1)
+  }
 
   useEffect(() => {
-    dispatch(testAction());
-  }, []);
+    setInterval(decrementTime, 1000);
+  }, [])
+
+
 
   return (
     <div>
-      Test
+      <p>Test</p>
+      <Timer time={time}/>
     </div>
   )
 }
