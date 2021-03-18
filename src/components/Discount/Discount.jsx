@@ -20,9 +20,9 @@ const Discount = () => {
 
                     <Button scrollToBlockB={scrollToBlockB}/>
 
-                    <p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p><p>nknknknkn</p>
                     <div className="companies">
-                        <img src="" alt=""/>
+                        
+                        {/* <img src="" alt=""/> */}
                     </div>    
                 </div>
 
@@ -32,10 +32,6 @@ const Discount = () => {
                         <div></div>
                     </div>
                 </div>
-            </div>
-
-            <div className="block_b">
-                Block B
             </div>
         </>
     );
