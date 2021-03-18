@@ -11,8 +11,7 @@ const format = time => {
   return `${minutes}:${padTime(seconds)}`;
 };
 
-const Timer = () => {
-  const [counter, setCounter] = useState(600);
+const Timer = ({counter, setCounter}) => {
   
   useEffect(() => {
     let timer;
@@ -33,7 +32,7 @@ const Timer = () => {
     <div className="container">
       <div className="time">
       {counter === 0 
-        ? <div className='modalka__timer'>Время закончилось</div> 
+        ? <div className='modalka__timer'>Out of time</div> 
         : <div className="modalka__timer"><div className="modalka__timer__counter">{format(counter)}<p className="modalka__timer__time">minutes seconds</p></div></div>} 
       </div>
    </div>
