@@ -1,0 +1,10 @@
+.containerInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: aqua;
+
+}

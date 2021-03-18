@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Timer } from './common/timer';
+import { Timer } from './common/Timer';
+import Container from './Container/Container';
 
-export const Test = () => {
+export const Main = () => {
   const [time, setTime] = useState(599);
 
   const decrementTime = () => {
@@ -17,8 +18,10 @@ export const Test = () => {
     <div>
       <p>Test</p>
       <Timer time={time}/>
+      <Container />
     </div>
   )
 }
 
-export default Test;
+export default Main;
+
