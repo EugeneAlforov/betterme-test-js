@@ -5,11 +5,7 @@ import Timer from '../Timer';
 
 import './Discount.scss';
 
-const Discount = ({ counter, setCounter }) => {
-    const scrollToBlockB = () => {
-        document.querySelector('.block_b').scrollIntoView({behavior: "smooth"});
-    };
-
+const Discount = ({ counter, setCounter, scrollToBlockB }) => {
     return (
         <>
             <div className="discount">
