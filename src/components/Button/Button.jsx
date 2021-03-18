@@ -12,7 +12,7 @@ const Button = ({ scrollToBlockB }) => {
             className="button"
             onClick={scroll}
         >
-            Ggt my plan
+            get my plan
         </button>
     );
 };

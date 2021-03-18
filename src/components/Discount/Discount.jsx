@@ -27,7 +27,10 @@ const Discount = () => {
                 </div>
 
                 <div className="prices">
-
+                    <div className="discount__wrapper">
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
             </div>
 
