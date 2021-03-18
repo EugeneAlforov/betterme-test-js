@@ -1,20 +1,20 @@
 import React from 'react';
-import Button from '../../common/Button';
+import Discount from './Discount/Discount';
+import style from './PriceSection.module.css';
 
 const PriceSection = () => {
 
     return (
-        <section>
-            <div >
-                <div>
-                    Counter
-                    <Button onClickCallBack={() => console.log('CALLBACK')}/>
+        <section className={style.section} id="section_top">
+            <div className={style.sectionTop}>
+                <div className={style.sectionTopDiscount}>
+                    <Discount />
                 </div>
-                <div>
+                <div className={style.sectionTopPrice}>
                     Price
                 </div>
             </div>
-            <div >
+            <div className={style.sectionBottom}>
                 Logos
             </div>
         </section>
