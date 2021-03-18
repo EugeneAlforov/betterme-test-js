@@ -1,0 +1,14 @@
+.email-section-container  {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-block span {
+    color: #DF4142;
+}
