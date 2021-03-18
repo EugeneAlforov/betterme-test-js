@@ -1,0 +1,9 @@
+.button{
+    width: 328px;
+    height: 56px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #AECF3E;
+    color: #fff;
+    text-transform: uppercase;
+}
