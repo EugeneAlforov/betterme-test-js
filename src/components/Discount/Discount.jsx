@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 
 import Button from '../Button/Button';
+import Timer from '../Timer';
 
 import './Discount.scss';
 
-const Discount = () => {
+const Discount = ({ counter, setCounter }) => {
     const scrollToBlockB = () => {
         document.querySelector('.block_b').scrollIntoView({behavior: "smooth"});
     };
@@ -16,13 +17,12 @@ const Discount = () => {
                     <h1 className="discount__title">
                         Discount <span className="selected">expires</span> at
                     </h1>
-                    <span className="discount__counter">10</span>
-
+                    <Timer counter={counter} setCounter={setCounter} />
                     <Button scrollToBlockB={scrollToBlockB}/>
 
                     <div className="companies">
-                        
-                        {/* <img src="" alt=""/> */}
+                        <span className="companies__title">As featured in:</span>
+                        <img src="" alt=""/>
                     </div>    
                 </div>
 

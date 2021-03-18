@@ -11,7 +11,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <div className="wrapper">
-          <Discount />
+          <Discount counter={counter} setCounter={setCounter} />
           <CBlock counter={counter} setCounter={setCounter} />
         </div>
         
