@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { testAction } from '../redux/test/test.actions';
 
-export const Test = () => {
+export const Main = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -11,9 +11,9 @@ export const Test = () => {
 
   return (
     <div>
-      Test
+      
     </div>
   )
 }
 
-export default Test;
+export default Main;
