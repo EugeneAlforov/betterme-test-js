@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { testAction } from '../redux/test/test.actions';
+import Container from './Container/Container';
 
 export const Test = () => {
   const dispatch = useDispatch();
@@ -11,7 +12,7 @@ export const Test = () => {
 
   return (
     <div>
-      Test
+      <Container />
     </div>
   )
 }
