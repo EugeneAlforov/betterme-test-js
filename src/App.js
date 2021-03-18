@@ -3,6 +3,7 @@ import react, {useState} from 'react'
 import { Provider } from 'react-redux';
 import store from './redux/store';
 import CBlock from './components/CBlock.jsx';
+import BlockB from './components/BlockB/BlockB.jsx';
 
 function App() {
   const [counter, setCounter] = useState(600);
@@ -10,6 +11,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <div className="wrapper">
+          <BlockB />
           <CBlock counter={counter} setCounter={setCounter} />
         </div>
         

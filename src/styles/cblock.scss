@@ -26,13 +26,29 @@
     font-weight: bold;
 
     &__text {
-      font-weight: 200;
+      font-weight: 300;
     }
+  }
+
+  &__cards{
+    margin-top: 40px;
+    display: flex;
   }
 }
 
-.subtitle {
-  
+.cards {
+  background-color: white;
+  justify-content: space-around;
+
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin: 0 20px 0 20px;
+  padding: 20px;
+  transition: 0.4s all;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .timer {
