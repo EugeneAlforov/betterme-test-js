@@ -1,0 +1,19 @@
+.section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sectionTop{
+    display: flex;
+    
+}
+
+.sectionTopDiscount{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTopPrice{
+    display: flex;
+}
