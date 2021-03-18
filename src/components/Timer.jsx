@@ -12,9 +12,10 @@ const format = time => {
 };
 
 const Timer = ({counter, setCounter}) => {
-  
+  let timer;
+
   useEffect(() => {
-    let timer;
+    
 
     if (counter > 0) {
       timer = setTimeout(() => setCounter(c => c - 1), 1000);
@@ -30,10 +31,10 @@ const Timer = ({counter, setCounter}) => {
 
   return (
     <div className="container">
-      <div className="time">
+      <div className="timer">
       {counter === 0 
-        ? <div className='modalka__timer'>Out of time</div> 
-        : <div className="modalka__timer"><div className="modalka__timer__counter">{format(counter)}<p className="modalka__timer__time">minutes seconds</p></div></div>} 
+        ? <div className='timer'>Out of time</div> 
+        : <div className="timer">{format(counter)}<p className="timer__time">minutes seconds</p></div>} 
       </div>
    </div>
   )
