@@ -43,7 +43,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <BlockX />
-        <BlockA />
+        <BlockA time={dates} />
         <BlockB />
         <BlockC time={dates} />
       </div>
