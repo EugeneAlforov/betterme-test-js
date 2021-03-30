@@ -6,14 +6,15 @@ import forbes from "../../assets/icons/forbes.svg"
 import wsj from "../../assets/icons/wsj.svg"
 import nypost from "../../assets/icons/nypostlogo.svg"
 import mashable from "../../assets/icons/mashable.svg"
+import Timer from "../common/Timer/Timer";
 
-const BlockA = () => {
+const BlockA = ({time}) => {
     return (
         <div className={classes.wrapper} id="blockA">
             <div className={classes.content}>
                 <div className={classes.left}>
                     <p>Discount <span style={{color: "#50C9F5"}}>expires</span> at</p>
-                    09:59
+                    <Timer dates={time} withoutText />
                 <Button handleClick={() => handleScroll("blockB")} />
                 </div>
                 <div className={classes.right}>
