@@ -1,6 +1,8 @@
 import React from 'react'
 import Container from '../../components/Container'
+import Timer from '../../components/Timer';
 import Links from '../../images/Frame 2708.svg';
+import Button from '../../components/Button';
 
 import './style.css';
 
@@ -13,8 +15,8 @@ const BlockA = () => {
             <h1 className="blockA__title">
               Discount <span className="blockA__expires">expires</span> at
             </h1>
-            <div className="blockA__timer">timer</div>
-            <button>Get my plan</button>
+            <Timer />
+            <Button />
           </div>
           <div className="blockA__images">
 
