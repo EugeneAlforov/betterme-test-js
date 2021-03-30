@@ -3,6 +3,7 @@ import Container from "../../components/Container";
 import Card from "../../components/Card";
 import Button from "../../components/Button";
 import "./style.css";
+import Timer from "../../components/Timer";
 
 const BlockC = () => {
     return (
@@ -13,10 +14,10 @@ const BlockC = () => {
                         Reserved <span className="block-c__header_blue">75% discount</span> for:
                     </h3>
                     <div className="block-c__timer-section">
-                        The Counter
-                        <div>
-                            <span>Minutes</span>
-                            <span>Seconds</span>
+                        <Timer />
+                        <div className="block-c__timer-labels">
+                            <p>minutes</p>
+                            <p>seconds</p>
                         </div>
                     </div>
                     <div className="block-c__button" id="button-bottom">
