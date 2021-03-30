@@ -12,7 +12,7 @@ const BlockA = () => {
         <div className={classes.wrapper} id="blockA">
             <div className={classes.content}>
                 <div className={classes.left}>
-                    Discount <span style={{color: "#50C9F5"}}>expires</span> at
+                    <p>Discount <span style={{color: "#50C9F5"}}>expires</span> at</p>
                     09:59
                 <Button handleClick={() => handleScroll("blockB")} />
                 </div>

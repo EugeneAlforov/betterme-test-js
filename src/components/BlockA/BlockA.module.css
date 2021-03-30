@@ -2,6 +2,7 @@
     background-color: #F9FAFC;
     min-height: 678px;
     display: flex;
+    padding-top: -50px;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
@@ -16,11 +17,16 @@
 }
 
 .left {
-    width: 204px;
+    display: flex;
+    flex-direction: column;
     font-size: 48px;
     font-family: "Montserrat", sans-serif;
     line-height: 56px;
     font-weight: 700;
+}
+
+.left p {
+    margin: 0;
 }
 
 .right {
