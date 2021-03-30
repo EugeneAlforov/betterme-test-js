@@ -1,9 +1,13 @@
 import React from 'react'
 import './style.css'
 
-const Button = () => {
+const Button = ({ addInput }) => {
   return (
-    <button type="button" className="button">
+    <button
+      type="button"
+      className="button"
+      onClick={addInput}
+    >
       Get my plan
     </button>
   )
