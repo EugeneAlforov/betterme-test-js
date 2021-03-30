@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.section-b {
+    display: flex;
+    padding-bottom: 129px;
+    padding-top: 89px;
+    max-width: 1032px;
+    margin: 0 auto;
+}
+.b-left, .b-right {
+    width: 50%;
+}
+.b-left {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+}
+.b-left span {
+    color: red;
+}
+input {
+    line-height: 56px;
+    border: 1px solid #68DFFA;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}

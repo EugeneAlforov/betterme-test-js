@@ -9,11 +9,8 @@ export const Test = () => {
     dispatch(testAction());
   }, []);
 
-  return (
-    <div>
-      Test
-    </div>
-  )
+  return <div>test</div>
+  
 }
 
 export default Test;
