@@ -1,17 +1,107 @@
 .wrapper {
     background-color: #F9FAFC;
-    height: 100vh;
+    min-height: 678px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 100px;
+    position: relative;
 }
 
 .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
 .left {
     width: 204px;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.right {
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+
+.bottomCard {
+    position: absolute;
+    height: 237px;
+    width: 185px;
+    right: 40%;
+    top: 10%;
+    bottom: 81.64%;
+
+    background: #FEFEFE;
+    box-shadow: 0px 3px 16px rgba(39, 40, 60, 0.03), 0px 14px 40px rgba(46, 55, 87, 0.12);
+    border-radius: 16px;
+    text-transform: uppercase;
+    color: #A3B3C6;
+    font-family: Montserrat;
+    padding: 42px 19px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+
+}
+.bottomPrice {
+    margin-top: 43px;
+    border-top: 1px solid #EAEEF2;
+    position: absolute;
+    bottom: 0;
+    padding: 29px 0 32px;
+    width: 100%;
+    left: 0;
+    text-decoration: line-through;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.topCard {
+    position: absolute;
+    width: 260px;
+    height: 332px;
+    top: 0;
+    right: 0;
+    background: #50C9F5;
+    border-radius: 16px;
+    filter: drop-shadow(0px 8.18983px 32.7593px rgba(104, 223, 250, 0.4));
+}
+
+.brands {
+    position: absolute;
+    bottom: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 129px;
+    width: 450px;
+}
+
+.brandsTitle {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.logoWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
