@@ -5,7 +5,7 @@
     padding-top: 89px;
     max-width: 1032px;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .b-left {
     max-width: 328px;
@@ -18,42 +18,44 @@
 .text {
     margin-bottom: 24px;
 }
-.b-left .text span {
+.text span {
     color: red;
 }
-.input {
+.close-button {
+    padding-right: 8px;
+}
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 8px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    outline: none;
     border: 1px solid #dfdffd;
-    margin-bottom: 32px;
     border-radius: 12px;
     box-sizing: border-box;
+
 }
-.input-left {
-    font-size: 14px;
-    line-height: 14px;
-    padding-top: 10px;
-    padding-left: 10px;
+input:focus{
+    border-color:#68DFFA;
 }
-.input-left>span {
+.input-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    margin-bottom: 60px;
+    margin-top: -44px;
+}
+.input-controls span {
     font-size: 12px;
     font-weight: normal;
     color: #dfdfdf;
     line-height: 12px;
 }
-input {
-    max-width: 180px;
-    border: none;
-    outline: none;
-    padding-bottom: 8px;
-    padding-top: 8px;
-}
-.close-button {
-    padding-right: 8px;
+.input-controls img {
+    padding-top: 10px;
+    cursor: pointer;
 }
 
-input:active .input {
-    border: 1px solid #68DFFA;
-}
 
