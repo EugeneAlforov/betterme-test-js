@@ -7,8 +7,7 @@ import wsj from "../../assets/icons/wsj.svg"
 import nypost from "../../assets/icons/nypostlogo.svg"
 import mashable from "../../assets/icons/mashable.svg"
 
-export const BlockA = () => {
-
+const BlockA = () => {
     return (
         <div className={classes.wrapper} id="blockA">
             <div className={classes.content}>
@@ -46,3 +45,5 @@ export const BlockA = () => {
         </div>
     )
 }
+
+export default BlockA;
