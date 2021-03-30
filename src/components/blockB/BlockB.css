@@ -5,21 +5,23 @@
     padding-top: 89px;
     max-width: 1032px;
     margin: 0 auto;
-}
-.b-left, .b-right {
-    width: 50%;
+    justify-content: space-between;
 }
 .b-left {
+    max-width: 328px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 48px;
     line-height: 56px;
+    text-align: left;
 }
 .b-left span {
     color: red;
 }
 input {
+    width: 100%;
     line-height: 56px;
+    outline: none;
     border: 1px solid #68DFFA;
     box-sizing: border-box;
     border-radius: 12px;

@@ -1,4 +1,5 @@
 import React from "react"
+import Button from "../common/Button/Button"
 import "./BlockB.css"
 import Illustration from "../../assets/img/Illustration.png"
 
@@ -13,6 +14,7 @@ const BlockB = () => {
             <div className="input">
                 <input type="text" placeholder="Enter your email to get your plan"/>
             </div>
+            <Button />
         </div>
         <div className="b-right">
             <img src={Illustration} alt="" />
