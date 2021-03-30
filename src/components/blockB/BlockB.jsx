@@ -2,7 +2,7 @@ import React from "react"
 import "./BlockB.css"
 import Illustration from "../../assets/img/Illustration.png"
 
-export const BlockB = () => {
+const BlockB = () => {
     const test = 'test';
     return (
     <div className="section-b">
