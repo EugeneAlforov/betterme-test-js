@@ -1,11 +1,11 @@
 import React from 'react';
-import './BlockX.css';
+import classes from './BlockX.module.css';
 
 const BlockX = () => {
   return (
-    <div className="header">
-      <img className="logo" src="/logo.png" />
-      <img className="sandwich" src="/sandwich.png" />
+    <div className={classes.header}>
+      <img className={classes.logo} src="/logo.png" />
+      <img className={classes.sandwich} src="/sandwich.png" />
     </div>
   )
 }

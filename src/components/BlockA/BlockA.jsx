@@ -2,8 +2,7 @@ import Button from "../common/Button/Button"
 import classes from "./BlockA.module.css"
 import {handleScroll} from "../../helpers/smoothScroll";
 
-export const BlockA = () => {
-
+const BlockA = () => {
     return (
         <div className={classes.wrapper} id="blockA">
             <div className={classes.content}>
@@ -19,3 +18,5 @@ export const BlockA = () => {
         </div>
     )
 }
+
+export default BlockA;
