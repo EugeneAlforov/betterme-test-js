@@ -1,0 +1,17 @@
+.wrapper {
+    background-color: #F9FAFC;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.left {
+    width: 204px;
+}
