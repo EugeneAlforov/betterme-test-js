@@ -1,0 +1,46 @@
+.block-c {
+    width: 100%;
+    height: 400px;
+    background-color: #F9FAFC;
+}
+
+.block-c .container {
+    margin: 115px auto;
+}
+
+.block-c__header-section {
+    max-width: 666px;
+    margin: 0 auto 70px;
+}
+
+.block-c__header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    color: #162a41;
+}
+
+.block-c__header_blue {
+    color: #50c9f5;
+}
+
+.block-c__timer-section {
+    width: 196px;
+    margin: 0 auto;
+}
+
+.block-c__button {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.block-c__card-section {
+    width: 100%;
+}
+
+.block-c__card-labels {
+    width: max-content;
+    margin: 0 auto;
+}
