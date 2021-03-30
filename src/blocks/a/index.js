@@ -16,7 +16,9 @@ const BlockA = () => {
               Discount <span className="blockA__expires">expires</span> at
             </h1>
             <Timer />
-            <Button />
+            <div id="button-first">
+              <Button />
+            </div>
           </div>
           <div className="blockA__images">
 

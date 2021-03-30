@@ -2,8 +2,9 @@ import React from 'react';
 import Button from '../../components/Button';
 
 function BlockB() {
+
   return (
-    <section className="block-b">
+    <section className="block-b" id="center-block">
       <div className="container">
         <div className="block-b__main">
           <div className="block-b__left">
