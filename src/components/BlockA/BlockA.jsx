@@ -25,7 +25,10 @@ export const BlockA = () => {
                         </div>
                     </div>
                     <div className={classes.topCard}>
-                        topCard
+                        New price!
+                        <div className={classes.topPrice}>
+                            $4.99
+                        </div>
                     </div>
                 </div>
     
