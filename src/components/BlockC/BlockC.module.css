@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.container {
+  background-color: #f9fafc;
+  padding-left: 105px;
+  padding-right: 105px;
+  padding-top: 115px;
+  padding-bottom: 115px;
+}
+.title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+}
+.title span {
+  color: #50c9f5;
+}
+.subtitle {
+  color: #162a41;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+.messageList {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.subtext {
+  color: #4e657f;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}

@@ -1,10 +1,12 @@
-import React, {useState} from "react"
-import Button from "../common/Button/Button"
-import Input from "./Input"
-import "./BlockB.css"
-import Illustration from "../../assets/img/Illustration.png"
+import React, { useState } from "react";
+import Button from "../common/Button/Button";
+import Input from "./Input";
+import "./BlockB.css";
+import Illustration from "../../assets/img/Illustration.png";
 
 const BlockB = () => {
+  const [showInput, setShowInput] = useState(true);
+  const [inputValue, setInputValue] = useState("");
 
     const [showInput, setShowInput] = useState(false);
     const [inputValue, setInputValue] = useState("")
@@ -43,8 +45,9 @@ const BlockB = () => {
             <img src={Illustration} alt="" />
         </div>
         
+
     </div>
-    )
-}
+  );
+};
 
 export default BlockB;
