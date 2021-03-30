@@ -8,7 +8,6 @@ function App() {
   return (
     <Provider store={store}>
       <div className="container">
-        {/* <h1>info</h1> */}
         <BlockA />
         <BlockB />
       </div>
