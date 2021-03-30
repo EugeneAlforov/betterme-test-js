@@ -1,15 +1,17 @@
 import s from "./BlockC.module.css";
 import Button from "../common/Button/Button";
 import Message from "./Message/Message";
+import { handleScroll } from "../../helpers/smoothScroll";
+import Timer from "../common/Timer/Timer";
 
-const Footer = () => {
+const Footer = ({ time }) => {
   return (
     <div className={s.container} id="blockC">
       <h1 className={s.title}>
         Reserved <span>75% discount</span> for:
       </h1>
-      <p>09:59 minutes seconds</p>
-      <Button />
+      <Timer dates={time} />
+      <Button handleClick={() => handleScroll("blockB")} />
       <h2 className={s.subtitle}>Users love our plans</h2>
       <p className={s.subtext}>Here's what people are saying about BetterMe</p>
       <div className={s.messageList}>
