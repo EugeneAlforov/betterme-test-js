@@ -1,13 +1,13 @@
 import './App.css';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-import Test from './components/test';
+import {BlockA} from "./components/BlockA/BlockA"
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <Test />
+        <BlockA />
       </div>
     </Provider>
   );
