@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react'
 import moment from 'moment';
 import './style.css';
 
-const defaultTime = new Date('03 30 2021, 14:00');
+var defaultTime = moment(moment()).add(10, 'm').toDate();
 const formatTime = 'MM DD YYYY, h:mm'
 
 const Timer = () => {
-  const [seconds, setSeconds] = useState(0);
-  const [minutes, setMinutes] = useState(10);
+  const [seconds, setSeconds] = useState('59');
+  const [minutes, setMinutes] = useState('09');
   useEffect(() => {
     setInterval(() => {
       const now = moment()

@@ -1,0 +1,84 @@
+.block-c {
+    width: 100%;
+    height: max-content;
+    background-color: #F9FAFC;
+    padding-top: 115px;
+}
+
+.block-c .container {
+    margin: 0 auto;
+}
+
+.block-c__header-section {
+    max-width: 666px;
+    margin: 0 auto 70px;
+}
+
+.block-c__header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    color: #162a41;
+    margin-bottom: 24px;
+}
+
+.block-c__header_blue {
+    color: #50c9f5;
+}
+
+.block-c__timer-section {
+    width: max-content;
+    margin: 0 auto 32px;
+}
+
+.block-c__timer-section .timer {
+    margin: 0;
+}
+
+.block-c__timer-labels {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-c__timer-labels p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.block-c__button {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.block-c__card-labels h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    width: max-content;
+    margin: 0 auto 12px;
+}
+
+.block-c__card-labels p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.block-c__card-section {
+    width: 100%;
+}
+
+.block-c__card-labels {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.block-c__cards {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
