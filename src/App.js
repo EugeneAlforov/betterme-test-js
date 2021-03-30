@@ -5,6 +5,8 @@ import store from "./redux/store";
 import BlockC from "./components/BlockC/BlockC";
 import BlockB from "./components/blockB/BlockB";
 import { BlockA } from "./components/BlockA/BlockA";
+import "./App.css";
+import BlockX from "./components/BlockX/BlockX";
 
 function App() {
   const [futureDate, setFutureDate] = useState(null);
@@ -40,6 +42,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
+        <BlockX />
         <BlockA />
         <BlockB />
         <BlockC time={dates} />
