@@ -1,13 +1,12 @@
 import './App.css';
 import { Provider } from 'react-redux';
 import store from './redux/store';
+import BlockA from './blocks/a';
 
 function App() {
   return (
     <Provider store={store}>
-      <div className="container">
-        <h1>info</h1>
-      </div>
+      <BlockA />
     </Provider>
   );
 }
