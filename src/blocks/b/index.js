@@ -1,6 +1,8 @@
 import React, { useState }from 'react';
-import Button from './Button';
-import Input from './Input';
+import Input from '../../components/Input/Input';
+import Button from '../../components/Button';
+import Links from '../../images/iphone.svg';
+
 
 function BlockB() {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,13 +41,13 @@ function BlockB() {
                 {' '}
                 Plan
               </p>
-              <form action="">
-                {isVisible && <Input handleChange={handleChange} value={value}/>}
+              <form action="" className="form">
+                {isVisible && <Input handleChange={handleChange} value={value} setIsVisible={setIsVisible}/>}
                 <Button addInput={addInput}/>
               </form>
           </div>
           <div className="block-b__right">
-            <img className="block-b__picture" src="/src/images/iphone.svg" alt="telephone" />
+            <img className="block-b__picture" src={Links} alt="telephone" />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import './style.css'
 
 const Button = ({ addInput }) => {
   return (
@@ -12,4 +13,4 @@ const Button = ({ addInput }) => {
   )
 }
 
-export default Button;
+export default Button

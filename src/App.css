@@ -26,17 +26,6 @@ li {
   list-style: none;
 }
 
-.container {
-  max-width: 1032px;
-  margin: auto;
-}
-
-@media screen and (max-width: 968px) {
-  .container {
-    margin: 0 40px;
-  }
-}
-
 .button {
   display: flex;
   justify-content: center;
@@ -57,16 +46,22 @@ li {
   color: #FFFFFF;
   text-shadow: 0px 1px 2px rgba(66, 33, 108, 0.12);
   outline: none;
+  cursor: pointer;
 }
 
 .block-b__main {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 806px;
 
 }
 
 .block-b__left {
   width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .block-b__title {
@@ -84,13 +79,28 @@ li {
   -webkit-text-stroke-color: black;
 }
 
+.form {
+  position: relative;
+}
+
 .block-b__input {
+  display: block;
   width: 328px;
   height: 56px;
   border: 1px solid #68DFFA;
   border-radius: 12px;
   outline: none;
-  margin-bottom: 60px;
+  margin-bottom: 32px;
   padding-left: 20px;
 }
+
+.close {
+  background-color: #fff;
+  border: none;
+  position: absolute;
+  top: 22px;
+  right: 60px;
+  cursor: pointer;
+}
+
 
