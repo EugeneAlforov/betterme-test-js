@@ -1,0 +1,31 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 20px;
+    background-color: white;
+}
+
+.review-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.review-data, .review-name {
+font-family: Montserrat;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #4E657F;
+}
+
+.review-subtitle {
+font-family: Montserrat;
+font-size: 14px;
+line-height: 20px;
+color: #4E657F;
+}

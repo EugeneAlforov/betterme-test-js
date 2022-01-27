@@ -14,12 +14,16 @@ const PeopleSays  = (props) => {
     
     return (
         <>
-        <div key={id}>
-            <h6>{title}</h6>
-            <span>{data}</span>
-            <p>{name}</p>
-            <p>{subtitle}</p>
-        <h2>People</h2>
+        <div key={id} className="review">
+            
+            <div>
+            <h6 className="review-title">{title}</h6>
+            <span className="review-data">{data}</span>
+            <p className="review-name">{name}</p>
+            </div>
+           
+            <p className="review-subtitle">{subtitle}</p>
+       
        
         </div>
        
