@@ -1,0 +1,23 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 16px 40px;
+}
+
+.headerImage {
+  display: block;
+  width: 100%;
+  max-width: 135px;
+}
+
+.menuButtonImage {
+  display: block;
+  width: 100%;
+  max-width: 20px;
+  cursor: pointer;
+}

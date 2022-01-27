@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import PeopleSays from "../components/people_says/PeopleSays"
 import Timer from "../components/Timer";
+import Button from "../components/Button/Button"
 import "./containerReserved.css";
 
 //import axios from "axios";
 
 
 const ContainerReserved = () => {
-    //const [review, setReview] = useState([]);
-    const review = [
+    const [review, setReview] = useState([
         {
             "id": "1",
             "title": "Thank You",
@@ -34,7 +34,8 @@ const ContainerReserved = () => {
            
         }  
          
-    ];
+    ]);
+    
     
     // useEffect(() => {
     //     axios("/people_says.json").then((res) => {
@@ -52,7 +53,9 @@ const ContainerReserved = () => {
           name={e.name}
         />
       ));
-    
+    const onClick = () => {
+
+    }
 
 
     return (
@@ -61,6 +64,7 @@ const ContainerReserved = () => {
             Reserved <span className="container-reserved__title--secondary">75% discount</span>  for:
             </h2>
             <Timer />
+            <Button onClick={onClick} />
             <h3 className="container-reserved__subtitle">
             Users love our plans
             </h3>
