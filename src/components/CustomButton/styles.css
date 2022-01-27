@@ -1,0 +1,27 @@
+.custom-button {
+    width: 328px;
+    height: 54px;
+    border:1px solid #AECF3E;
+    border-radius: 8px;
+    background-color: #AECF3E;
+    font:800 16px/24px 'Roboto', sans-serif;
+}
+.custom-button > span {
+    color:#FFFFFF;
+}
+.buttonWrapper {
+    width: 336px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #AECF3E;
+    border-radius: 8px;
+    background-color: rgb(68%, 81%, 24%, 0.1);
+}
+ .buttonWrapper.first-wrapper {
+    border: 1px solid #cfd8b0;
+    width: 348px;
+    height: 74px;
+    background-color:transparent;
+ }
