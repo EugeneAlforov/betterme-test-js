@@ -6,7 +6,7 @@ import Test from './components/test';
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
+      <div className="Appp">
         <Test />
       </div>
     </Provider>
