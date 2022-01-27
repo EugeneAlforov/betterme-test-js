@@ -2,13 +2,13 @@ import React from "react";
 import './styles.css' ;
 
 export const CustomButton = (props) => {
-    const {onSecondBlockRef} = props;
+    const {onSecondBlockRef, style} = props;
 
     const onHandlerClick = () => {
         onSecondBlockRef.current.scrollIntoView({block: "center", behavior: "smooth"})
     }
     return (
-        <div className='buttonWrapper first-wrapper'>
+        <div style={style} className='buttonWrapper first-wrapper'>
         <div className='buttonWrapper'>
         <button
         onClick= {onHandlerClick}

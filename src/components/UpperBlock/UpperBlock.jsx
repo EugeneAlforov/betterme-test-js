@@ -19,7 +19,7 @@ const UpperBlock = ({onSecondBlockRef}) => {
                     Discount <span className='title-span'>expires</span> at
                 </Title>
                 <Timer />
-                <CustomButton onSecondBlockRef={onSecondBlockRef}/>
+                <CustomButton onSecondBlockRef={onSecondBlockRef} style={{margin: 0}}/>
             </div>
             <Pricer />
         </div>
