@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./TimerStyle.css"
 
 function Timer () {
         const initialMinute = 10;
@@ -25,19 +26,12 @@ function Timer () {
                 clearInterval(myInterval);
               };
         });
-
-        const stylesTimer = {
-            color: "#50C9F5",
-            fontSize: "64px",
-            fontFamily: "Montserrat",
-            fontWeight: "700"
-        }
     
         return (
             <div>
             { minutes === 0 && seconds === 0
                 ? null
-                : <h1 style={stylesTimer}> {minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds}</h1> 
+                : <h1 className="timer"> {minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds}</h1> 
             }
             </div>
         )
