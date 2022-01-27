@@ -4,19 +4,15 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 
 import { SecondBlock } from './components/SecondBlock';
-import { ThirdBlock } from './components/ThirdBlock';
+import { ThirdBlock } from './components/ThirdBlock/ThirdBlock';
 import { CustomButton } from './components/CustomButton/CustomButton';
 
 import UpperBlock from './components/UpperBlock/UpperBlock';
 
 
 function App() {
-    const [testState,setTestState] = React.useState('')
+
     const element = React.useRef(null);
-    React.useEffect(() => {
-     
-      setTestState(element)
-    }, []);
     
   return (
     <Provider store={store}>
@@ -26,9 +22,9 @@ function App() {
             <SecondBlock />
           </div>
     <ThirdBlock>
-      <CustomButton onSecondBlockRef={testState}/>
+      <CustomButton onSecondBlockRef={element}/>
       </ThirdBlock>
-         
+       
       </div>
     </Provider>
   );

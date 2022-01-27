@@ -1,0 +1,18 @@
+.thirdBlockWrapper {
+    background-color: #F9FAFC;
+}
+.cta-cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.timer-label {
+    font-weight: 600;
+    font:400 20px/32px 'Roboto', sans-serif;
+    margin:20px 10px;
+}
+
+.subtitle-1 {
+    font-weight: bold;
+    font: 700 32px/40px 'Roboto', sans-serif;
+    margin-top: 65px;
+}

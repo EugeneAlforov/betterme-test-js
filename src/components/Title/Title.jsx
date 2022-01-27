@@ -2,6 +2,6 @@ import React from 'react'
 
 
 
-const Title = ({children}) => {
+export const Title = ({children}) => {
     return <h2 className='title'>{children}</h2>
 }
