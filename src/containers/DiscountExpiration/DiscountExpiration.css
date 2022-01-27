@@ -1,0 +1,5 @@
+.discountExpBox {
+    display: flex;
+    position: relative;
+    padding-top: 80px;
+}

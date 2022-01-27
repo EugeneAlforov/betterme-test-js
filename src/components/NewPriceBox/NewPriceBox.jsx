@@ -4,10 +4,10 @@ export const NewPriceBox = (props) => {
     return(
         <div className="rectangle">
             <div className="newPriceBox">
-                <>New Price!</>
+                <p className="newPriceText">New Price!</p>
             </div>
             <div className="price">
-                <p>$4.99</p>
+                <p className="priceLabel">$4.99</p>
             </div>
         </div>
     )
