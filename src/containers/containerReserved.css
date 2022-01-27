@@ -1,0 +1,45 @@
+.container-reserved {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 156px 192px 127px;
+background-color: #F9FAFC;;
+font-family: Montserrat;
+
+
+}
+
+.container-reserved__title {
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    color: #162A41;
+
+}
+
+.container-reserved__title--secondary {
+    color: #50C9F5;
+}
+
+.container-reserved__subtitle {
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.container-reserved__review {
+margin-bottom: 40px;
+font-family: Gilroy;
+font-size: 16px;
+line-height: 150%;
+color: #4E657F;
+}
+
+.wrapper-review {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}

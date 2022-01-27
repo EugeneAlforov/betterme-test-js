@@ -40,7 +40,6 @@
 .wrapper {
   width: 100%;
   max-width: 1032px;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
