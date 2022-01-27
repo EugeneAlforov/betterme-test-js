@@ -5,14 +5,19 @@ import bannerPlan from '../../assets/personalizedPlan.png'
 
 const PersonalizedPlanContainer = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const email = useRef('');
+    const [email, setEmail] = useState('');
+
 
     const handleClick = () => {
         setIsOpen(!isOpen);
     }
 
+    const handleChangeEmail = (e) => {
+        setEmail(e.target.value)
+    }
+
     const handleSetLocalStorage = () => {
-        localStorage.setItem('email', email.current.value)
+        localStorage.setItem('email', email)
     }
 
     return (
@@ -21,7 +26,7 @@ const PersonalizedPlanContainer = () => {
                 <h2 className="personalized-title">
                     Get Your <span className="personalized-title--danger">Personalized</span> Plan
                 </h2>
-                {isOpen && <input ref={email}
+                {isOpen && <input onChange={(e) => handleChangeEmail(e)}
                                   placeholder="Enter your email to get your plan"
                                   className="personalized-email-input" />}
                 <Button onClick={isOpen ? handleSetLocalStorage : handleClick}/>
