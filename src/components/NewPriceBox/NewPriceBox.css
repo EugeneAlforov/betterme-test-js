@@ -1,29 +1,79 @@
-    .newPriceBox {
-        position: absolute;
-        width: 260px;
-        height: 211px;
-        background: #68DFFA;
-    }
+.newPriceBox {
+  /* position: absolute; */
+  width: 260px;
+  height: 211px;
+  background: #68dffa;
+}
 
-    .rectangle {
-        position: absolute;
-        left: 0%;
-        right: 0.38%;
-        top: 0%;
-        bottom: 0.3%;
-        margin: 145px 282px 195px 898px;
-        background: #FFFFFF;
-        border: 4px solid #68DFFA;
-        box-sizing: border-box;
-        border-radius: 24px;
-    }
+.rectangle {
+  /* position: absolute; */
+  /* left: 0%;
+  right: 0.38%; */
+  /* top: 0%; */
+  /* bottom: 0.3%; */
+  /* margin: 145px 282px 195px 898px; */
+  background: #ffffff;
+  border: 4px solid #68dffa;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
 
-    .price {
-        position: absolute;
-        left: 0%;
-        right: 0.38%;
-        top: 0%;
-        bottom: 0.3%;
-        box-sizing: "border-box";
-        border-radius: 24px
-    }
+.price {
+  /* position: absolute;
+  left: 0%;
+  right: 0.38%;
+  top: 0%;
+  box-sizing: "border-box";
+  border-radius: 24px;
+}
+
+.priceLabel {
+  /* position: absolute;
+  left: 26.15%;
+  right: 24.23%;
+  top: 71.99%;
+  bottom: 11.14%; */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 56px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary 500 */
+
+  color: #50c9f5;
+}
+
+.newPriceText {
+  /* position: absolute;
+  left: 17.69%;
+  right: 17.69%;
+  top: 16.27%;
+  bottom: 50.3%; */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Background 3 */
+
+  color: #ffffff;
+
+  /* Product Text Shadow */
+
+  text-shadow: 0px 1px 1px rgba(157, 46, 46, 0.2);
+}

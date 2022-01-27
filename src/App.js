@@ -1,13 +1,13 @@
 import './App.css';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-import PersonalizedPlanContainer from './containers/PersonalizedPlanContainer/PersonalizedPlanContainer'
+import DiscountsExpiration from './containers/DiscountExpiration/DiscountsExpiration';
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <PersonalizedPlanContainer />
+        <DiscountsExpiration />
       </div>
     </Provider>
   );

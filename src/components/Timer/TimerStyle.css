@@ -1,5 +1,22 @@
 .timer {
-    color: #50C9F5;
-    font-size: 64px;
-    font-weight: 700;
+  /* position: absolute;
+  width: 196px;
+  height: 64px;
+  left: calc(50% - 196px / 2 - 418px);
+  top: 264px; */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  /* Primary 500 */
+
+  color: #50c9f5;
 }
