@@ -1,0 +1,31 @@
+.personalized-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #162A41;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.personalized-title--danger {
+    color: red;
+}
+
+.personalized-form {
+    width: 100%;
+    max-width: 375px;
+    text-align: left;
+}
+
+.personalized-email-input {
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #68DFFA;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8490A2;
+    margin-bottom: 40px;
+    padding: 0 8px;
+}
