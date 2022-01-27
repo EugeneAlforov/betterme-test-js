@@ -1,7 +1,8 @@
 import React from 'react'
 
+import './Title.css'
 
 
-const Title = ({children}) => {
+export const Title = ({children}) => {
     return <h2 className='title'>{children}</h2>
 }

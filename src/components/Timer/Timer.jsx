@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
+import './Timer.css'
+
 const timeConvere = (timer) => {
     const min = Math.floor(timer / 60);
     const sec = timer - min * 60;
@@ -20,7 +22,7 @@ export const Timer = () => {
 
     return (
         <>
-            <h1>{timeConvere(timer)}</h1>
+            <h1 className='timer'>{timeConvere(timer)}</h1>
         </>
     )
 }
