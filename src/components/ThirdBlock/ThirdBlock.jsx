@@ -33,7 +33,7 @@ export const ThirdBlock = (props) => {
     const [cardData, setCardData] = React.useState(initialData);
     return (
         <div className='thirdBlockWrapper'>
-            <Title>Reserved 75% discount for:</Title>
+            <Title>Reserved <span className="title-span">75% discount</span> for:</Title>
             <Timer/>
           <span className='timer-label'>Minutes</span>  
           <span className='timer-label'>seconds</span>
