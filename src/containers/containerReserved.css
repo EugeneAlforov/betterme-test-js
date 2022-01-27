@@ -2,15 +2,19 @@
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 156px 192px 127px;
-background-color: #F9FAFC;;
+padding: 156px 0px 127px;
+
 font-family: Montserrat;
 
 
 }
 
+.wrapper-background {
+    background-color: #F9FAFC;
+}
 .container-reserved__title {
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
+    margin: 0;
     font-size: 48px;
     font-weight: bold;
     line-height: 56px;
@@ -23,6 +27,7 @@ font-family: Montserrat;
 }
 
 .container-reserved__subtitle {
+    margin-top: 22px;
     margin-bottom: 12px;
     font-weight: bold;
     font-size: 32px;
@@ -40,6 +45,8 @@ color: #4E657F;
 .wrapper-review {
     display: flex;
     justify-content: space-between;
+    margin-left: -12px;
+    margin-right: -12px;
     
     
 }
