@@ -9,7 +9,6 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <DiscountsExpiration />
-        <Timer />
       </div>
     </Provider>
   );
