@@ -1,10 +1,16 @@
 import React from 'react';
+
 import './App.css';
+
 import { Provider } from 'react-redux';
 import store from './redux/store';
 
-import { SecondBlock } from './components/SecondBlock';
+
+
 import { ThirdBlock } from './components/ThirdBlock/ThirdBlock';
+
+import Block2 from './components/Block2';
+
 import { CustomButton } from './components/CustomButton/CustomButton';
 
 import UpperBlock from './components/UpperBlock/UpperBlock';
@@ -12,19 +18,20 @@ import UpperBlock from './components/UpperBlock/UpperBlock';
 
 function App() {
 
-    const element = React.useRef(null);
-    
+
+  const element = React.useRef(null);
+
   return (
     <Provider store={store}>
       <div className="App">
-      <UpperBlock />
-          <div ref={element}>
-            <SecondBlock />
-          </div>
-    <ThirdBlock>
-      <CustomButton onSecondBlockRef={element}/>
-      </ThirdBlock>
-       
+        <UpperBlock onSecondBlockRef={element} />
+        <div ref={element}>
+          <Block2 />
+        </div>
+        <ThirdBlock>
+          <CustomButton onSecondBlockRef={element} />
+        </ThirdBlock>
+
       </div>
     </Provider>
   );
