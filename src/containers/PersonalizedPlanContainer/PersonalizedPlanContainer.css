@@ -1,11 +1,5 @@
-.personalized-container {
-    width: 100%;
-    max-width: 1032px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    justify-content: space-between;
+.personalized-banner-box {
+    padding: 80px 0;
 }
 
 .personalized-title {

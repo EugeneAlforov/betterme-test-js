@@ -7,7 +7,6 @@ const PersonalizedPlanContainer = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [email, setEmail] = useState('');
 
-
     const handleClick = () => {
         setIsOpen(!isOpen);
     }
@@ -21,7 +20,7 @@ const PersonalizedPlanContainer = () => {
     }
 
     return (
-        <section className="personalized-container">
+        <section className="wrapper">
             <div className="personalized-form">
                 <h2 className="personalized-title">
                     Get Your <span className="personalized-title--danger">Personalized</span> Plan
@@ -31,7 +30,7 @@ const PersonalizedPlanContainer = () => {
                                   className="personalized-email-input" />}
                 <Button onClick={isOpen ? handleSetLocalStorage : handleClick}/>
             </div>
-            <div>
+            <div className="personalized-banner-box">
                 <img src={bannerPlan} />
             </div>
         </section>
