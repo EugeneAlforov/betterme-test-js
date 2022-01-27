@@ -1,13 +1,15 @@
 import './App.css';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-import Test from './components/test';
+import { SecondBlock } from './components/SecondBLock';
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <Test />
+
+          <SecondBlock/>
+
       </div>
     </Provider>
   );
