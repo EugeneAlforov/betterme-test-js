@@ -21,7 +21,7 @@ const PersonalizedPlanContainer = () => {
     }
 
     return (
-        <section className="personalized-container">
+        <section className="wrapper">
             <div className="personalized-form">
                 <h2 className="personalized-title">
                     Get Your <span className="personalized-title--danger">Personalized</span> Plan
