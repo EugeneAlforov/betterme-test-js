@@ -11,22 +11,18 @@ import UpperBlock from './components/UpperBlock/UpperBlock';
 
 
 function App() {
-    const [testState,setTestState] = React.useState('')
+  
     const element = React.useRef(null);
-    React.useEffect(() => {
-     
-      setTestState(element)
-    }, []);
     
-  return (
+    return (
     <Provider store={store}>
       <div className="App">
-      <UpperBlock />
+      <UpperBlock onSecondBlockRef={element}/>
           <div ref={element}>
             <SecondBlock />
           </div>
     <ThirdBlock>
-      <CustomButton onSecondBlockRef={testState}/>
+      <CustomButton onSecondBlockRef={element}/>
       </ThirdBlock>
          
       </div>
