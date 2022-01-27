@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-
 import Confetti from "react-confetti";
 
 import classes from "./Block2.module.scss";
 
 const Block2 = () => {
   const [showConfetti, setShowConfety] = useState(false);
+
   return (
     <>
       {showConfetti && <Confetti />}
